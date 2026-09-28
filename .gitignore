@@ -1,0 +1,10 @@
+node_modules/
+.env
+# Tus chats, la memoria aprendida y la sesión de WhatsApp son privados: nunca se suben.
+data/*
+!data/chats/
+data/chats/*
+!data/chats/.gitkeep
+.wwebjs_auth/
+.wwebjs_cache/
+logs/
